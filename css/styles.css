@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.block {
+  width: 250px;
+  padding: 5px 10px;
+}
+.placeholder {
+  margin-bottom: 5px
+}
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.text {
+  width: 250px;
+  margin-left: 10px;
+}
+
+.btn {
+  margin: 5px 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: rgba(0,225,0,0.7);
+  background: #315efb;
+  border-style: none;
+}
+
+.btn:hover {
+  background-color: rgba(225,0,0,0.7);
+  transform: scale(1.5);
+}
